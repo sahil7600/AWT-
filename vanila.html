@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Valina JS </title>
+        <script type="text/javascript">
+            function demoInternalalert()
+            {
+                alert("Hello Guys");
+            }
+            function demoInternalconfirm(){
+                if(confirm("Are you Sure.?")){
+                    alert("Yess");  
+                }
+                else{
+                ("Noo");
+                }
+            }
+            function demoInternalprompt()
+            {
+                var fName=prompt("Enter First Name");
+                var LName=prompt("Enter Last Name");
+                alert(fName+""+LName);
+            }
+             </script>
+             <script src="C:\Users\Sahil\OneDrive\Desktop\AWT\JQ\scripts" type="text/javascript">  
+             </script>
+            <style type="text/css" >
+                body{background-color: antiquewhite;}
+                #D1{background-color: blueviolet; font-size: medium; font-weight: bold; height: 200px; width: 200px; text-align: center;}
+            </style>
+    </head>
+    <body>
+        <div id="D1">
+            Hello World
+        </div>
+        <hr>
+        <input type="button" value="Alert Inline" onclick="alert('Hello Guys')">
+        <input type="button" value="Confirm Inline" onclick="confirm('Are You Sure')">
+        <input type="button" value="Prompt Inline" onclick="prompt('Enter Firstname here..')"><hr>
+
+        <input type="button" value="Alert Inline" onclick="demoInternalalert()">
+        <input type="button" value="Confirm Inline" onclick="demoInternalconfirm()">
+        <input type="button" value="prompt Inline" onclick="demoInternalprompt()"><hr>  
+    </body> 
+</html>
